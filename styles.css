@@ -124,6 +124,9 @@ navbar ends
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
+    position: relative;
+    z-index: 10;
+
 }
 
 .hero-right {
@@ -182,13 +185,14 @@ navbar ends
     margin: auto;
     padding: 60px 100px;
     color: var(--blue-accent);
+    position: relative;
+    z-index: 1;
 }
 
 .about-bottom {
     margin: 60px 0;
 }
 
-.about-bottom-left {}
 
 .about-bottom-left img {
     max-width: 400px;
@@ -218,3 +222,85 @@ navbar ends
 
 
 /* About section ens */
+
+/* about additional starts */
+.about-additional {
+    width: 100%;
+    max-width: 1280px;
+    height: 650px;
+    margin: auto;
+    background-image: url('./assets/images/denim_text_effect.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -35%;
+    position: relative;
+    z-index: 0;
+}
+
+.transparent-div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #0E161F 0%, rgba(14, 22, 31, 0.00) 52.08%, rgba(14, 22, 31, 0.96) 100%);
+}
+
+.sizes {
+    position: relative;
+    z-index: 10;
+    text-align: right;
+    padding: 100px;
+}
+
+.sizes h3 {
+    color: var(--yellow-accent);
+}
+
+.sizes-circles {
+    position: relative;
+    display: flex;
+    column-gap: 10px;
+    justify-content: flex-end;
+    margin-top: 10px;
+
+}
+
+.size-circle {
+    background-image: url('./assets/images/ring.png');
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--blue-accent);
+}
+
+.additional-text {
+    width: 100%;
+    position: relative;
+    max-width: 1280px;
+    padding: 100px;
+    text-align: center;
+}
+
+.additional-text h1 {
+
+
+    color: white;
+
+    margin-top: 100px;
+
+
+}
+
+.additional-order-btn {
+
+    margin-top: 20px;
+
+}
+
+/* about additional ends */

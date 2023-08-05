@@ -379,3 +379,57 @@ navbar ends
 }
 
 /* characteristics ends */
+
+/* payment guidline video 
+starts */
+.payment-guideline {
+    width: 85%;
+    max-width: 1280px;
+    height: 600px;
+    background-image: url('./assets/images/twisted-jeans.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: -150px 100px;
+    text-align: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.payment-guideline>.transparent-div {
+    border-top-left-radius: 95px;
+    border-bottom-right-radius: 95px;
+}
+
+.play-icon {
+    position: relative;
+    z-index: 10;
+}
+
+.payment-guideline-text {
+    margin-top: 200px;
+    color: var(--blue-accent);
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 100px;
+    text-align: center;
+
+}
+
+.payment-guideline-text h1 {
+    margin-bottom: 20px;
+}
+
+.payment-guideline-text p {
+    margin-bottom: 20px;
+    border: 1px solid var(--blue-accent);
+    display: inline-block;
+    padding: 16px 30px;
+
+}
+
+/* payment guidline video ends */

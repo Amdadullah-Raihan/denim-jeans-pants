@@ -397,6 +397,7 @@ starts */
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 
 }
 
@@ -433,3 +434,30 @@ starts */
 }
 
 /* payment guidline video ends */
+
+/* pricing seciton starts */
+
+.pricing {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pricing-card {
+    background-image: url('./assets/images/pricing-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 700px;
+    height: 550px;
+    margin: 60px auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* pricing seciton ens */

@@ -12,6 +12,7 @@
 :root {
     --yellow-accent: #F0E615;
     --blue-accent: #003B60;
+    --bg-secondary: #F0F9FF;
 
 }
 
@@ -313,7 +314,7 @@ navbar ends
 /* products starts */
 .products {
     width: 100%;
-    background-color: #F0F9FF;
+    background-color: var(--bg-secondary);
 
 }
 
@@ -350,3 +351,31 @@ navbar ends
 }
 
 /* Products ends */
+
+/* characteristics starts */
+
+.characteristics {
+    width: 100%;
+    max-width: 1280px;
+    padding: 60px 100px 200px;
+    background-color: var(--bg-secondary);
+    color: var(--blue-accent);
+}
+
+.characteristics>h1 {
+    text-align: center;
+}
+
+.characteristics-list {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+}
+
+.characteristics-list>div {
+    display: flex;
+    column-gap: 10px;
+}
+
+/* characteristics ends */

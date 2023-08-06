@@ -461,3 +461,162 @@ starts */
 
 
 /* pricing seciton ens */
+
+/* testimonial section starts */
+.testimonials {
+    width: 100%;
+    background-color: var(--bg-secondary);
+    padding-top: 250px;
+    margin-top: -300px;
+    padding: 60px;
+}
+
+.testimonials-container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 300px 100px 30px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+
+}
+
+.testimonial-card {
+
+    padding: 0 20px 20px 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+
+}
+
+.testimonial-card img {
+    width: 100px;
+    margin-top: -50px;
+}
+
+.testimonial-card h3 {
+    margin: 10px 0;
+}
+
+.dashed-line {
+    width: 80%;
+    height: 1px;
+    border-bottom: 1px dashed var(--blue-accent);
+    margin: 20px auto;
+
+}
+
+.testimonials-container .testimonial-card:nth-child(even) {
+    background-color: var(--blue-accent);
+    color: white;
+}
+
+.testimonials-container .testimonial-card:nth-child(even) .dashed-line {
+    background-color: white;
+
+}
+
+.testimonials-container .testimonial-card:nth-child(odd) {
+    background-color: #fff;
+    color: var(--blue-accent);
+}
+
+.navigation-btns {
+    width: 100%;
+    text-align: center;
+}
+
+.navigation-btn-left {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--blue-accent);
+    background-color: white;
+    color: var(--blue-accent);
+    margin-right: 5px;
+}
+
+.navigation-btn-right {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--blue-accent);
+    background-color: var(--blue-accent);
+    color: white;
+}
+
+
+/* testimonial section ends */
+
+/* Contact -form starts */
+.contact {
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    background-image: url('./assets/images/jeans-cloth.png');
+    color: white;
+}
+
+.contact h1 {
+    padding: 60px 100px;
+    text-align: center;
+    position: relative;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 100px 60px;
+    position: relative;
+}
+
+.form-left input {
+    display: block;
+    padding: 16px;
+    margin: 15px 0;
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+
+}
+
+.form-container input::placeholder {
+    color: white;
+}
+
+.form-payment {
+    margin-top: 30px;
+}
+
+.form-payment div:nth-child(1) {
+    background-color: #fff;
+    color: var(--blue-accent);
+    padding: 16px 16px 30px;
+    border-top-left-radius: 30px;
+}
+
+.form-payment div:nth-child(1) i {
+    color: #F0E615;
+    margin-left: 5px;
+}
+
+.form-payment div:nth-child(2) {
+    border-bottom-right-radius: 30px;
+    background-color: var(--blue-accent);
+    padding: 16px;
+    position: relative;
+}
+
+.form-payment div:nth-child(2) i {
+    color: var(--blue-accent);
+    position: absolute;
+    top: -15px;
+    left: 50px;
+    font-size: 30px;
+
+}
+
+/* Contact -form ends */
